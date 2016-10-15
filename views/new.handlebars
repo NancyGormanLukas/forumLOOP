@@ -1,0 +1,52 @@
+
+ <section class="container">
+ <br>
+ <br>
+ <br>
+
+ <div class="jumbotron">
+ 	<h1 class="text-center">Submit to the loop!</h1>
+
+
+		<form method="POST" action="/new-post">
+		  <div class="form-group">
+		    <label for="title">Title</label>
+		    <input type="text" name="title" placeholder="Title" class="form-control" />
+		  </div>
+		  <div class="form-group">
+		    <label for="description">Description</label>
+		    <input type="text" name="description" placeholder="Description" class="form-control" minlength="10" />
+		  </div>
+		  <div class="form-group">
+		  	<label for="category">Category</label>
+				<select name="category" required class="form-control">
+					<option value="">Please select a category</option>
+					{{#each categories}}
+						<option value="{{this.id}}">{{this.title}}</option>
+					{{/each}}
+				</select>
+		  </div>
+		  <div class="form-group">
+		    <label for="url">Url</label>
+		    <input type="text" name="url" placeholder="Type in your link" class="form-control" />
+		  </div>		  
+		  <div class="form-group">
+		    <label for="snippet">Code Snippet</label>
+		    <textarea class="form-control" name="snippet"></textarea>
+		  </div>			  
+		  <div class="form-group">
+		    <label for="image">Image Url</label>
+		    <input type="text" name="image" placeholder="image link" class="form-control" />
+		  </div>		
+		  <button type="submit" class="btn btn lg btn-block btn-success">Submit</button>	  
+		</form>
+
+
+		<form >
+			 
+		   
+				
+		</form>
+
+		</div>
+</section>

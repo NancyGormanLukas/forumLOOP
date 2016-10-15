@@ -1,0 +1,33 @@
+{
+  "name": "bootup",
+  "version": "1.0.0",
+  "description": "Nancy Lukas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.0",
+    "firebase": "^3.3.0",
+    "moment": "^2.14.1",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamTh3Walrus/BootUp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IamTh3Walrus/BootUp/issues"
+  },
+  "homepage": "https://github.com/IamTh3Walrus/BootUp#readme",
+  "devDependencies": {
+    "handlebars-helper-moment": "^0.2.0"
+  }
+}
