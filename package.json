@@ -1,5 +1,5 @@
 {
-  "name": "bootup",
+  "name": "loopforum",
   "version": "1.0.0",
   "description": "Nancy Lukas",
   "main": "index.js",
@@ -7,6 +7,71 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+
+  "name": "agency",
+  "title": "Agency",
+  "version": "3.3.7+1",
+  "main": "server.js",
+  "homepage": "http://startbootstrap.com/template-overviews/agency",
+  "author": "Start Bootstrap",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "jquery": "^1.11.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "passport-local-sequelize": "^0.6.0",
+    "sequelize": "^3.24.3",
+    "sequelize-cli": "^2.4.0"
+  },
+
+  },
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "depd": "^1.1.0",
+    "dottie": "^1.1.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "font-awesome-plus": "^4.3.0",
+    "generic-pool": "^2.4.2",
+    "html": "^1.0.0",
+    "inflection": "^1.10.0",
+    "lodash": "^4.16.4",
+    "moment": "^2.15.1",
+    "moment-timezone": "^0.5.6",
+    "mysql": "^2.11.1",
+    "node-uuid": "^1.4.7",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-sequelize": "^0.6.0",
+    "retry-as-promised": "^2.0.1",
+    "semver": "^5.3.0",
+    "sequelize": "^3.24.3",
+    "sequelize-cli": "^2.4.0",
+    "shimmer": "^1.1.0",
+    "terraformer-wkt-parser": "^1.1.2",
+    "toposort-class": "^1.0.1",
+    "validator": "^6.0.0",
+    "wkx": "^0.4.0"
+  }
+}
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -21,12 +86,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IamTh3Walrus/BootUp.git"
+    "url": "https://github.com/NancyGormanLukas/forumLOOP"
   },
-  "bugs": {
-    "url": "https://github.com/IamTh3Walrus/BootUp/issues"
-  },
-  "homepage": "https://github.com/IamTh3Walrus/BootUp#readme",
+
   "devDependencies": {
     "handlebars-helper-moment": "^0.2.0"
   }

@@ -94,7 +94,12 @@ app.get('/categories/:category', function(req, res) {
 
 //form page
 app.get('/new-post', function(req, res) {
-	res.render('new');
+	Categories.findAll({}).then(function(result) {
+		console.log(result);
+		return res.render('new', {
+			categories: result
+		});
+	});
 });
 
 
@@ -117,6 +122,8 @@ app.post('/:postId/comment', function(req, res) {
 app.post('/new-post', function(req, res) {
 	var body = req.body;
 
+	console.log('got here1')
+
 	//create the post in the database
 	Posts.create({
 		title: body.title,
@@ -127,6 +134,7 @@ app.post('/new-post', function(req, res) {
 		CategoryId: parseInt(body.category, 10),
 		description: body.description
 	}).then(function(data) {
+		console.log('got here2')
 		console.log('data', data);
 		
 		//redirect to the posts/:id page
