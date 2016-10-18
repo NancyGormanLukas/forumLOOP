@@ -1,9 +1,9 @@
-var ref = new Firebase("https://bootup.firebaseio.com");
+var ref = new Firebase("https://theloop-85f4d.firebaseio.com/");
 
 
 $(document).ready(function() {
 
-	var fireBaseSession = localStorage.getItem('firebase:session::bootup');
+	var fireBaseSession = localStorage.getItem('firebase:session::theLoop');
 	var user;
 
 	if (fireBaseSession) {
