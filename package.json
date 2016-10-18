@@ -1,5 +1,6 @@
 {
-  "name": "loopforum",
+  "name": "loop",
+
   "version": "1.0.0",
   "description": "Nancy Lukas",
   "main": "index.js",
@@ -7,40 +8,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-
-  "name": "agency",
-  "title": "Agency",
-  "version": "3.3.7+1",
-  "main": "server.js",
-  "homepage": "http://startbootstrap.com/template-overviews/agency",
-  "author": "Start Bootstrap",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  
-  "devDependencies": {
-    "bootstrap": "^3.3.7",
-    "browser-sync": "^2.13.0",
-    "font-awesome": "^4.6.3",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.10",
-    "gulp-header": "^1.8.7",
-    "gulp-less": "^3.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^1.5.4",
-    "jquery": "^1.11.3",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "express-session": "^1.14.1",
-    "passport-local-sequelize": "^0.6.0",
-    "sequelize": "^3.24.3",
-    "sequelize-cli": "^2.4.0"
-  },
-
-  },
-  "dependencies": {
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.0",
+    "firebase": "^3.3.0",
+    "moment": "^2.14.1",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.24.1",
     "bcryptjs": "^2.3.0",
     "bluebird": "^3.4.6",
     "body-parser": "^1.15.2",
@@ -70,26 +48,33 @@
     "toposort-class": "^1.0.1",
     "validator": "^6.0.0",
     "wkx": "^0.4.0"
-  }
-}
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "express-handlebars": "^3.0.0",
-    "express-session": "^1.14.0",
-    "firebase": "^3.3.0",
-    "moment": "^2.14.1",
-    "mysql": "^2.11.1",
-    "sequelize": "^3.24.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NancyGormanLukas/forumLOOP"
+    "url": "git+https://github.com/IamTh3Walrus/BootUp.git"
   },
-
+  "bugs": {
+    "url": "https://github.com/IamTh3Walrus/BootUp/issues"
+  },
+  "homepage": "https://github.com/IamTh3Walrus/BootUp#readme",
   "devDependencies": {
-    "handlebars-helper-moment": "^0.2.0"
+    "handlebars-helper-moment": "^0.2.0",
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "jquery": "^1.11.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "passport-local-sequelize": "^0.6.0",
+    "sequelize": "^3.24.3",
+    "sequelize-cli": "^2.4.0"
   }
 }
