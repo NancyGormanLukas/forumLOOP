@@ -1,9 +1,9 @@
 
 
 
-# bootUp
+# the loop  discussion forum
 
-A user friendly enviorment where new developers who have attended or plan on attending a coding bootcamp. A place where people can talk about their sucess, share their experiences, share snippets of code and resources.
+A complementary forum for the loop, an organization that unites menotrs and mentees in support of New Jersey women in technology.
 
 ## Screenshots
 
@@ -22,7 +22,7 @@ Handlebars
 
 
 ## Getting Started
-To get a copy  [https://github.com/IamTh3Walrus/BootUp], where it can be cloned or downloaded
+To get a copy  [https://github.com/NancyGormanLukas/forumLOOP], where it can be cloned or downloaded
  
 
 ### Prerequisities
@@ -47,9 +47,7 @@ What to install and how for local development and testing purposes
 
 ## Authors
 
-* **Nancy Lukas** - *Initial work* - [Nancy Lukas](https://github.com/NancyGormanLukas)
-* **Karina Rojas** - *Initial work* - [Karina Rojas](https://github.com/krn22rjs)
-* **Stephen Doe** - *Initial work* - [Stephen Doe](https://github.com/IamTh3Walrus)
+* **Nancy Lukas** - [Nancy Lukas](https://github.com/NancyGormanLukas)
 
 
 

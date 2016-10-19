@@ -1,6 +1,6 @@
 //var ref = new Firebase("https://theloop-85f4d.firebaseio.com/");
 
-var provider = new firebase.auth.GithubAuthProvider();
+//var provider = new firebase.auth.GithubAuthProvider();
 $(document).ready(function() {
 
 	//var fireBaseSession = localStorage.getItem('firebase:session::theLoop');
@@ -8,38 +8,38 @@ $(document).ready(function() {
 
 	//if (fireBaseSession) {
 	    //user = JSON.parse(fireBaseSession);
-	    firebase.auth().signInWithPopup(provider).then(function(result) {
+	    //firebase.auth().signInWithPopup(provider).then(function(result) {
   // This gives you a GitHub Access Token. You can use it to access the GitHub API.
-			  var token = result.credential.accessToken;
+			  //var token = result.credential.accessToken;
 			  // The signed-in user info.
-			  var user = result.user;
+			  //var user = result.user;
 			  // ...
-			}).catch(function(error) {
+			//}).catch(function(error) {
 			  // Handle Errors here.
-			  var errorCode = error.code;
-			  var errorMessage = error.message;
+			  //var errorCode = error.code;
+			  //var errorMessage = error.message;
 			  // The firebase.auth.AuthCredential type that was used.
-			  var credential = error.credential;
+			  //var credential = error.credential;
 			  // ...
 			});
 	// }
 
-	if (user && user.github) {
+	//if (user && user.github) {
 
 	    //addd username to header
-	    $('#userinfo').append(user.github.username);
-	    $('#userinfo').append('<img class="github-logo" src="' + user.github.profileImageURL + '"/>');
+	    //$('#userinfo').append(user.github.username);
+	    //$('#userinfo').append('<img class="github-logo" src="' + user.github.profileImageURL + '"/>');
 	    //show logout button
-	    $('#logout').show();
-	} else {
-	    if (window.location.pathname != '/login') {
-	        window.location = '/login';
-	    }
+	    //$('#logout').show();
+	//} else {
+	    //if (window.location.pathname != '/login') {
+	        //window.location = '/login';
+	    //}
 
-	}
+	//}
 
 
-	$('#logout').click(function() {
+	/*$('#logout').click(function() {
 	    ref.unauth();
 	    window.location = "/login";
 	});
@@ -53,7 +53,7 @@ $(document).ready(function() {
 	            window.location = "/";
 	        }
 	    });
-	});
+	});*/
 
 
 	$('.fa-thumbs-up').click(function() {
